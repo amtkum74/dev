@@ -1,0 +1,10 @@
+applications:
+- path: target/sso-demo.war
+  memory: 512M
+  instances: 1
+  domain: mybluemix.net
+  name: sso-demo
+  host: sso-demo-amtkum74
+  disk_quota: 1024M
+  services:
+  - sso-service
